@@ -1,0 +1,98 @@
+.log {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    background: -webkit-linear-gradient(deepskyblue, blue);
+    position: fixed;
+}
+body {
+    margin: 0;
+    background-color:turquoise;
+}
+.rod {
+    display: flex;
+    justify-content: end;
+}
+.log > b {
+    font-size: 70px;
+}
+b:nth-of-type(1) {
+    color: red;
+}
+b:nth-of-type(2) {
+    color: orange;
+}
+b:nth-of-type(3) {
+    color: yellow;
+}
+b:nth-of-type(4) {
+    color: green;
+}
+b:nth-of-type(5) {
+    color: purple;
+}
+b:nth-of-type(6) {
+    color: red;
+}
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    position: relative;
+    border-radius: 40%;
+}
+.card {
+    width:40%;
+    background-color: tomato;
+    height: 80%;
+}
+.zag {
+    text-align: center;
+    color: blue;
+}
+.ss {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    height: 60%;
+    background-color: blue;
+    border-radius: 40%;
+}
+.ss1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80%;
+}
+.text {
+    text-decoration: none;
+    font-size: 30px;
+    color: yellow;
+}
+.text:hover {
+    color: red;
+}
+.main1 {
+    height: 130vh;
+    width: 35vw;
+    background-color: red;
+}
+.text1 {
+    position: fixed;
+    color: yellow;
+    font-size: 40px;
+}
+.flex {
+    display: flex;
+    justify-content: end;
+}
+.uslugi > h1 {
+    font-size: 30px;
+    margin-top: 40px;
+}
+i {
+font-size: 20px;
+}
