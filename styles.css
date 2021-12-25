@@ -41,7 +41,6 @@ b:nth-of-type(6) {
     align-items: center;
     height: 100vh;
     position: relative;
-    border-radius: 40%;
 }
 .card {
     width:40%;
