@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>С НГ</title>
+    <style>
+        body {
+            padding: 0;
+            margin: 0;
+            background-color: #232323;
+            height: 100vh;
+            overflow: hidden;
+        }
+        .tree {
+            position: absolute;
+            bottom: 30%;
+            left: 45%;
+        }
+        .field {
+            position: absolute;
+            width: 100%;
+            bottom: 0;
+        }
+        .card {
+            position: absolute;
+            top: 15%;
+            left: 15%;
+            font-family: rum;
+            z-index: 9999;
+        }
+        @font-face {
+            font-family: rum;
+            src: url("rum.otf") format("opentype");
+        }
+        h1 {
+            color: white;
+            font-size: 3em;
+        }
+        p ~ div {
+            color: white;
+            font-size: 1.5em;
+        }
+        h1::first-letter {
+            color: red;
+        }
+        .snowflake {
+            background-image: url("snowflake.png");
+            background-size: cover;
+            width: 50px;
+            height: 50px;
+            position: absolute;
+            top: -50px;
+        }
+        @keyframes falling {
+            to {
+                top: 100vh;
+                transform: rotate(720deg);
+            }
+        }
+        .snowflake:nth-child(1) {
+            left: 9vw;
+            animation: falling 6s .2s linear infinite; 
+            width: 75px;
+            height: 75px;
+            z-index: 100;
+        }
+        .snowflake:nth-child(2) {
+            left: 18vw;
+            animation: falling 14s .4s linear infinite;
+        }
+        .snowflake:nth-child(3) {
+            left: 27vw;
+            animation: falling 22.5s .9s linear infinite;
+            width: 25px;
+            height: 25px;
+            z-index: -1;
+        }
+        .snowflake:nth-child(4) {
+            left: 36vw;
+            animation: falling 30s .15s linear infinite;
+             width: 20px;
+            height: 20px;
+            z-index: -1; 
+        }
+        .snowflake:nth-child(5) {
+            left: 45vw;
+            animation: falling 6.5s .2s linear infinite;
+            width: 75px;
+            height: 75px;
+            z-index: 100;
+        }
+        .snowflake:nth-child(6) {
+            left: 54vw;
+            animation: falling 17.5s .10s linear infinite;
+            width: 15px;
+            height: 15px;
+            z-index: -1;
+        }
+        .snowflake:nth-child(7) {
+            left: 63vw;
+            animation: falling 10.5s .8s linear infinite;
+            width: 40px;
+            height: 40px;
+            z-index: 100;
+        }
+        .snowflake:nth-child(8) {
+            left: 72vw;
+            animation: falling 20.5s .12s linear infinite;
+            width: 30px;
+            height: 30px;
+            z-index: -1;
+        }
+        .snowflake:nth-child(9) {
+            left: 81vw;
+            animation: falling 8.5s .4s linear infinite;
+            width: 80px;
+            height: 80px;
+            z-index: 100;
+        }
+        .snowflake:nth-child(10) {
+            left: 90vw;
+            animation: falling 15.5s .8s linear infinite;
+            width: 50px;
+            height: 50px;
+            z-index: 100;
+        }
+    </style>
+</head>
+<body>  
+        <div class="snowflake"></div>
+        <div class="snowflake"></div>
+        <div class="snowflake"></div>
+        <div class="snowflake"></div>
+        <div class="snowflake"></div>
+        <div class="snowflake"></div>
+        <div class="snowflake"></div>
+        <div class="snowflake"></div>
+        <div class="snowflake"></div>
+        <div class="snowflake"></div>
+        <img src="tree.png" alt="Новогодняя Елка" class="tree" width="400">
+        <img src="field.png" alt="Зимнее поле" class="field">
+        <div class="card">
+            <h1>С наступающим новым годом!</h1>
+            <p class="text">
+                <div>С новым годом! Волшебства,</div>
+                <div>Смеха, счастья и тепла,</div>
+                <div>Мира, радостей, достатка</div>
+                <div>И во всех делах порядка!</div>
+            </p>
+        </div>
+</body>
+</html>
