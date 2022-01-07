@@ -49,8 +49,8 @@ body {
     color: purple;
 }
 .card-a, .card-b, .card-c, .card-d, .card-e {
-    height: 50vh;
-    width: 15vw;    
+    height: 60vh;
+    width: 22vw;    
 }
 .zag-a, .zag-b, .zag-c, .zag-d, .zag-e {
     background-color: #893dc2;
