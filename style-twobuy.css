@@ -177,7 +177,8 @@ nav {
         height: 25vh;
         width: 100vw;
         display: flex;
-        padding-bottom: 15vh;
+        padding-bottom: 10vh;
+        padding-top: 15vh;
     }
     .text-a {
         height: 25vh;
