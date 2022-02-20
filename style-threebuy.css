@@ -1,0 +1,496 @@
+.error {
+    display: none;
+    position: fixed;
+}
+.nav {
+    height: 10vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    background-color: rgba(43, 43, 43, 1);
+}
+body {
+    margin: 0;
+    overflow-x: hidden;
+}
+.log {
+    display: flex;
+    height: 10vh;
+    align-items: center;
+    width: 15vw;
+}
+.log > img {
+    height: 10vh;
+    width: 15vw;
+}
+.panel {
+    padding-left: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+    height: 10vh;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+}
+.other-abc {
+    display: flex;
+    justify-content: center;
+    height: 10vh;
+    align-items: center;
+    width: 85vw;
+}
+.panel > span {
+    font-size: 25px;
+    color: white;
+}
+.panel > span:nth-of-type(1) {
+    color: #fce000;
+}
+.writein {
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    padding-left: 30px;
+}
+.writein > button {
+    background-color: #fce000;
+    width: 200px;
+    height: 70px;
+    font-size: 20px;
+    border-radius: 20px;
+}
+.main {
+    height: 90vh;
+    width: 100vw;
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mainblock {
+    width: 85vw;
+    height: 80vh;
+    background-color: white;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.mainblock > div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+.mainblock > div > button {
+    border: 0;
+    background-color: #fce000;
+    width: 150px;
+    height: 50px;
+    border-radius: 10px;
+    font-weight: 600;
+    font-size: 15px;
+}
+.mainblock > div > img {
+    width: 20vw;
+}
+.main-two {
+    width: 30vw;
+    height: 70vh;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form > img {
+    width: 30vw;
+    height: 70vh;
+    border-radius: 30px;
+}
+.writeun {
+    display: flex;
+    align-items: center;
+    height: 10vh;
+    width: 100vw;
+    background-color: whitesmoke;
+    gap: 80px;
+}
+.text {
+    margin-left: 30vw;
+}
+.telegram, .whatsapp, .viber, .channel-telegram {
+    display: flex;
+    justify-content: center;
+    height: 5vh;
+    align-items: center;
+    width: 7vw;
+    background-color: wheat;
+    gap: 10px;
+}
+.whatsapp {
+    gap: 3px;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+.writein > button {
+    border: 0;
+}
+.questions-answers {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-wrap: wrap;
+}
+.questions-answers > div {
+    height: 50vh;
+    width: 50vw;
+    background-color: whitesmoke;
+    display: flex;
+}
+.questions-answers > .img > .windowone > img {
+    width: 200px;
+    height: 200px;
+}
+.questions-answers > .img > .windowtwo > img {
+    width: 200px;
+    height: 200px;
+}
+.questions-answers > .img > .windowthree > img {
+    width: 200px;
+    height: 200px;
+}
+.questions-answers > .img > .windowfour > img {
+    width: 200px;
+    height: 200px;
+}
+.texts {
+    width: 30vw;
+}
+.form {
+    display: flex;
+}
+input {
+    width: 15vw;
+    height: 7vh;
+    border: 0.0001px solid gainsboro;
+}
+form {
+    display: flex;
+    gap: 30px;
+    flex-direction: column;
+    padding: 50px;
+}
+.random {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 70vh;
+    background-color: whitesmoke;
+}
+input:nth-of-type(3) {
+    background-color: #fce000;
+    font-weight: 800;
+}
+.form-main {
+    background-color: white;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 30px;
+}
+.img > img {
+    border-radius: 30px;
+}
+@media (max-width: 1500px) {
+    .whatsapp,  .telegram, .viber, .channel-telegram {
+        font-size: 15px;
+        width: 10vw;
+    }
+    .writeun {
+        gap: 40px;
+    }
+    .questions-answers > .img > .windowone > img {
+        width: 150px;
+        height: 150px;
+    }
+    .questions-answers > .img > .windowtwo > img {
+        width: 150px;
+        height: 150px;
+    }
+    .questions-answers > .img > .windowthree > img {
+        width: 150px;
+        height: 150px;
+    }
+    .questions-answers > .img > .windowfour > img {
+        width: 150px;
+        height: 150px;
+    }
+    .text {
+        margin-left: 20vw;
+    }
+    .panel > span {
+        font-size: 16px;
+    }
+    .writein > button {
+        width: 150px;
+        height: 45px;
+        font-size: 15px;
+    }
+    .panel {
+        padding-left: 0;
+    }
+    .writein {
+        padding-left: 20px;
+    }
+    .nav {
+        height: 7vh;
+    }
+    .log > img{
+        height: 7vh;
+    }
+}
+@media (max-width: 1050px) {
+        .nav {
+            height: 5vh;
+        }
+        .log > img {
+            height: 5vh;
+            width: 13vw;
+        }
+        .panel {
+            gap: 10px;
+        }
+        .writein > button {
+            width: 100px;
+            height: 40px;
+            font-size: 10px;
+        }
+        .writein {
+            padding-left: 10px;
+        }
+        .panel {
+            padding-left: 10px;
+        }
+        .hide {
+            display: none;
+        }
+        .random > .img > img {
+            height: 50vh;
+            width: 60vw;
+        }
+        .text {
+            margin-left: 7vw;
+        }
+        .whatsapp,  .telegram, .viber, .channel-telegram {
+            width: 13vw;
+        }
+        input:nth-of-type(3) {
+            font-weight: 400;
+        }
+}
+@media (max-width: 800px) {
+    .hide-two, .hide-three {
+        display: none;
+    }
+    .nav {
+        height: 7vh;
+    }
+    .log > img {
+        height: 7vh;
+        width: 20vw;
+    }
+    .mainblock > div {
+        gap: 40px;
+        width: 15vw;
+    }
+    .mainblock > div > h2 {
+        font-size: 17px;
+    }
+    .mainblock > div > img {
+        width: 17vw;
+    }
+    .mainblock > div > button {
+        width: 110px;
+    }
+    .text {
+        margin-left: 2vw;
+    }
+    .writeun {
+        gap: 5px;
+    }
+    .whatsapp,  .telegram, .viber, .channel-telegram {
+        width: 18vw;
+    }
+    input {
+        width: 25vw;
+    }
+    input:nth-of-type(3) {
+        font-weight: 800;
+    }
+}
+@media (max-width: 580px) {
+        .hide-four {
+            display: none;
+        }
+        .nav {
+            height: 5vh;
+        }
+        .log > img {
+            height: 5vh;
+        }
+        .mainblock {
+            width: 100vw;
+        }
+        .mainblock > div > button {
+            width: 20vw;
+        }
+        .mainblock > div > img {
+            width: 20vw;
+        }
+        .questions-answers > .img > .windowone > img {
+            width: 60px;
+            height: 60px;
+        }
+        .questions-answers > .img > .windowtwo > img {
+            width: 60px;
+            height: 60px;
+        }
+        .questions-answers > .img > .windowthree > img {
+            width: 60px;
+            height: 60px;
+        }
+        .questions-answers > .img > .windowfour > img {
+            width: 60px;
+            height: 60px;
+        }
+        input:nth-of-type(3) {
+            font-weight: 600;
+            font-size: 10px;
+        }
+        .writeun > div {
+            gap: 10px;
+            width: 50vw;
+            height: 25vh;
+        }
+        .writeun {
+            flex-direction: column;
+            height: 30vh;
+            gap: 10px;
+        }
+}
+@media (max-width: 400px) {
+    .log {
+        display: none;
+    }
+    .nav {
+        height: 20vh;
+    }
+    .other-abc {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .panel {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .panel > span {
+        font-size: 15px;
+    }
+    .panel > .hide-two {
+        display: inline;
+    }
+    .panel > .hide-four {
+        display: inline;
+    }
+    .writein > button {
+        font-size: 20px;
+        width: 70vw;
+        height: 8vh;
+    }
+    .mainblock {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .mainblock > div {
+        width: 50vw;
+    }
+    .mainblock > div > img {
+        width: 40vw;
+    }
+    .mainblock > div > h2 {
+        font-size: 25px;
+    }
+    .mainblock > div > button {
+        width: 40vw;
+        height: 7vh;
+    }
+    input:nth-of-type(3) {
+        font-size: 8px;
+    }
+    .questions-answers > div {
+        width: 100vw;
+        height: 60vh;
+    }
+    .questions-answers {
+        height: 240vh;
+    }
+    .questions-answers > .hide {
+        display: inline;
+    }
+    .texts > span > .hide-four {
+        display: inline;
+    }
+    .texts > span > .hide-four > .hide-three {
+        display: inline;
+    }
+    .texts > span > .hide-four > .hide-three > .hide {
+        display: inline;
+    }
+    .texts {
+        width: 100vw;
+    }
+    .windowone > img {
+        width: 100px;
+    }
+    .random > .img > img {
+        height: 40vh;
+        width: 50vw;
+    }
+    .random {
+        height: 40vh;
+    }
+    .form-main {
+        height: 40vh;
+        width: 50vw;
+    }
+    form {
+        gap: 20px;
+        height: 20vh;
+    }
+    input {
+        width: 30vw;
+    }
+}
+@media (max-width: 300px) {
+    .all {
+        display: none;
+    }
+    .error {
+        display: inline;
+        font-size: 40px;
+    }
+    .flex {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        width: 100vw;
+    }
+}
