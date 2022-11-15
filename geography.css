@@ -1,0 +1,24 @@
+body {
+    margin: 0;
+    background-color: greenyellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 130vh;
+    flex-direction: column;
+}
+img {
+    width: 360px;
+    height: 360px;
+    margin-bottom: 5vh;
+}
+h1 {
+    color: deepskyblue;
+    background-color: blue;
+}
+h4 {
+    position: absolute;
+    color: red;
+    bottom: 10vh;
+}
